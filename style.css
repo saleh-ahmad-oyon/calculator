@@ -1,0 +1,37 @@
+body {
+  background-color: #342d34;
+  color: white;
+  margin: 0;
+  min-block-size: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.calculator {
+  width: 300px;
+  height: 280px;
+  background-color: #c9cace;
+}
+
+input {
+  width: 20%;
+  height: 40px;
+  font-size: 20px;
+  margin: 6px;
+}
+
+input[type=button] {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+}
+
+#display {
+  width: 93%;
+  height: 50px;
+  background-color: #d4e2e3;
+}
+
+.text-center {
+  text-align: center;
+}
